@@ -1,86 +1,67 @@
 ---
 title: "Event 2"
-date: 2026-07-11
-weight: 2
+date: 2026-07-04
+weight: 1
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.1. </b> "
 ---
-# Bài thu hoạch “FCAJ x Agentic AI Build Week”
-
-### Mục Đích Của Sự Kiện
-
-- Chia sẻ các kinh nghiệm và trải nghiệm đáng nhớ trong cuộc thi Hackathon
-- Giới thiệu phương pháp DDD và event-driven architecture
-- Hướng dẫn lựa chọn compute services phù hợp
+# BÀI THU HOẠCH: AWS Study Tour 2026 - Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud 
 
 
-### Nội Dung Nổi Bật
+---
 
-#### Đưa ra các ảnh hưởng tiêu cực của kiến trúc ứng dụng cũ
+## 1. MỤC ĐÍCH CỦA SỰ KIỆN
 
-- Thời gian release sản phẩm lâu → Mất doanh thu và bỏ lỡ cơ hội
+* **Chuyến tham quan học tập (Study Tour):** Kết nối sinh viên Swinburne Việt Nam (Cơ sở TP.HCM & Cần Thơ) tới trực tiếp văn phòng AWS để trải nghiệm môi trường thực tế ngành Cloud.
+* **Cập nhật xu hướng & kiến trúc doanh nghiệp:** Lắng nghe chia sẻ từ các chuyên gia AWS, Cloud Kinetics và Renova Cloud về bức tranh tuyển dụng, xu hướng công nghệ và cách vận hành các hệ thống Enterprise Cloud.
+* **Lan tỏa tinh thần Pay-it-Forward:** Thúc đẩy sự kết nối giữa các thế hệ sinh viên/kỹ sư trẻ thông qua cộng đồng **AWS First Cloud AI Journey (FCAJ)**.
 
+---
 
-#### Chuyển đổi sang kiến trúc Microservice hiện đại
+## 2. NỘI DUNG NỔI BẬT
 
-Chuyển đổi thành hệ thống modular – từng chức năng là một **dịch vụ độc lập** giao tiếp với nhau qua **sự kiện** với 3 trụ cột cốt lõi:
+### A. Bức Tranh Thị Trường Việc Làm & Thực Tế Tuyển Dụng Cloud
+* **Nhu cầu dịch chuyển Cloud của Doanh nghiệp:**
+  * Điện toán đám mây đã đi sâu vào các lĩnh vực cốt lõi như Ngân hàng/Tài chính (chuyển đổi Core Banking lên Cloud), Bảo hiểm, Bán lẻ.
+* **Sự thật về các kênh tuyển dụng (Hidden Job Market):**
+  * 90%–100% công việc Cloud thực tế không đăng tải public trên các trang tuyển dụng đại trà mà chuyển giao thông qua **nội bộ (Referral)** và **kết nối cộng đồng**.
+* **Tiêu chuẩn đầu vào ngày càng khắt khe:**
+  * Các vị trí Intern/Junior hiện nay đòi hỏi kiến thức thực chiến rất sâu (như am hiểu K8s/Kubernetes, Cloud Architecture) thay vì chỉ nắm lý thuyết cơ bản.
 
-- **Queue Management**: Xử lý tác vụ bất đồng bộ
-- **Caching Strategy:** Tối ưu performance
-- **Message Handling:** Giao tiếp linh hoạt giữa services
+### B. Kiến Trúc Đám Mây Doanh Nghiệp (Enterprise Cloud Architectures)
+* **Chuyển đổi hạ tầng quy mô lớn:**
+  * Các đối tác Cloud Kinetics và Renova Cloud chia sẻ về phương pháp thiết kế hạ tầng Cloud cho doanh nghiệp lớn, đảm bảo tính sẵn sàng cao (High Availability) và bảo mật tuyệt đối.
+* **Cân bằng giữa Chi phí & Hiệu năng:**
+  * Hiểu rõ khái niệm *Range Median* về mức lương/chi phí và nhận thức rằng giá trị tạo ra cho doanh nghiệp luôn phải cao gấp nhiều lần chi phí đầu tư.
 
-#### Domain-Driven Design (DDD)
+---
 
-- **Phương pháp 4 bước**: Xác định domain events → sắp xếp timeline → identify actors → xác định bounded contexts
-- **Case study bookstore**: Minh họa cách áp dụng DDD thực tế
-- **Context mapping**: 7 patterns tích hợp bounded contexts
+## 3. NHỮNG GÌ HỌC ĐƯỢC & BÀI HỌC RÚT RA
 
-#### Event-Driven Architecture
+### A. Tư Duy Phát Triển Sự Nghiệp (Career Growth)
+* **Tăng cường Visibility (Sự hiện diện):** Bớt "luyện công âm thầm", chủ động tham gia sự kiện, cộng đồng để người đi trước biết tới năng lực của mình.
+* **Đừng đi một mình (Networking & Teaming):** Form team không chỉ gồm dân Technical mà cần kết hợp với các bạn thuộc mảng Business/Marketing để mở rộng góc nhìn sản phẩm.
+* **Sự kiên trì (Consistency):** Luôn cô đọng key points sau mỗi buổi học và kiên trì theo đuổi lộ trình phát triển kỹ năng.
 
-- **3 patterns tích hợp**: Publish/Subscribe, Point-to-point, Streaming
-- **Lợi ích**: Loose coupling, scalability, resilience
-- **So sánh sync vs async**: Hiểu rõ trade-offs (sự đánh đổi)
+### B. Kỹ Năng Kỹ Thuật & Thực Chiến
+* **Chủ động đặt câu hỏi (Refine Questions):** Thay vì đặt câu hỏi chung chung, hãy đưa ra giả định (*assumption*) để giúp diễn giả/chuyên gia dễ phản hồi đúng trọng tâm.
+* **Nhìn xa hơn chương trình học:** Dù chương trình đại học (như COS2019 - Cloud Computing Architecture) cung cấp nền tảng chuẩn AWS Academy, sinh viên cần áp dụng thực tế thông qua các cuộc thi Hackathon và dự án thực hành doanh nghiệp.
 
+---
 
-### Những Gì Học Được
+## 4. DIỄN GIẢ & KHÁCH MỜI THAM GIA
 
-#### Tư Duy Thiết Kế
+* **Mr. Nguyễn Gia Hưng:** Head of Solutions Architect, AWS Vietnam (Founder chương trình *AWS First Cloud AI Journey*).
+* **Mr. Nguyễn Trần Minh Duy:** Industry Liaison Officer, Swinburne Vietnam (Đơn vị kết nối chương trình Study Tour).
+* **Đội ngũ Chuyên gia & Khách mời:** Đại diện đến từ Cloud Kinetics, Renova Cloud, cùng Ban quản trị (Admin Team) cộng đồng First Cloud AI Journey (Anh Vĩnh, Chị Như, Anh Khang, Anh Thiện).
 
-- **Business-first approach**: Luôn bắt đầu từ business domain, không phải technology
-- **Ubiquitous language**: Tầm quan trọng của từ vựng chung giữa business và tech teams
-- **Bounded contexts**: Cách identify và quản lý sự phức tạp trong large systems
+---
 
-#### Kiến Trúc Kỹ Thuật
+## 5. ĐƯỜNG DẪN SỰ KIỆN
 
-- **Event storming technique**: Phương pháp thực tế để mô hình hóa quy trình kinh doanh
-- Sử dụng **Event-driven communication** thay vì synchronous calls
-- **Integration patterns**: Hiểu khi nào dùng sync, async, pub/sub, streaming
-- **Compute spectrum**: Criteria chọn từ VM → containers → serverless
-
-
-### Ứng Dụng Vào Công Việc
-
-- **Áp dụng DDD** cho project hiện tại: Tổ chức Event Storming sessions với business team
-- **Refactor microservices**: Sử dụng bounded contexts để xác định service boundaries
-- **Implement event-driven patterns**: Thay thế một số sync calls bằng async messaging
-
-
-### Trải Nghiệm Sự Kiện & Bài Học Rút Ra Từ Video
-
-Tham gia sự kiện **“FCAJ x Agentic AI Build Week”** (đồng tổ chức cùng JI Fund & AWS) mang lại nhiều giá trị thực tế qua các bài chia sẻ kỹ thuật và các phần pitch dự án:
-
-#### Định hướng từ các chuyên gia hàng đầu
-- Lắng nghe chia sẻ từ **Mr. Nguyễn Gia Hưng** (Head of Solutions Architect, AWS Vietnam) và **Mr. Joseph Marazota** (Head of Technology, AWS ASEAN).
-- **Chuyển đổi tư duy trong kỷ nguyên Agentic AI**: Phát triển phần mềm truyền thống cập nhật theo chu kỳ nhiều tuần, trong khi AI Agent có thể tự động triển khai liên tục từng phút. Kỹ sư cần dám thử nghiệm và thoát khỏi tư duy cũ.
-- **Giảm thiểu ma sát cho người dùng (Friction Reduction)**: Ứng dụng hiện đại tập trung cắt giảm các thao tác rườm rà (đăng ký phức tạp, menu nhiều quảng cáo) bằng cách giao trực tiếp tác vụ cho AI Agent thực thi.
-
-#### Bài học từ Hackathon: Từ PoC đến Production
-Tạo bản PoC trong thời gian ngắn của cuộc thi Hackathon giúp kiểm chứng ý tưởng nhanh chóng, nhưng để đưa vào thực tế cần giải quyết 3 bài toán lớn:
-1. **Guardrails (Thành rào kiểm soát)**: Thiết lập cơ chế kiểm soát kỹ lưỡng đầu ra trước khi cho phép AI Agent ra quyết định.
-2. **Chi phí vận hành**: Quản lý và tối ưu chi phí gọi API/LLM khi chạy các vòng lặp Agent liên tục.
-3. **Vòng lặp tương tác (Human-in-the-loop)**: Xây dựng cơ chế cho phép AI Agent thu thập phản hồi từ chuyên gia (như Data Analyst) để liên tục tối ưu hóa kết quả.
+* **Video ghi hình sự kiện:** [AWS Study Group - Enterprise Cloud Architectures](https://www.youtube.com/watch?v=FKtMkUqyny4)
 
 
-### Hình Ảnh & Đường Dẫn Sự Kiện
+## Một số hình ảnh khi tham gia sự kiện
 
-![Ảnh chứng minh đi event](/event_2.png)
+![Event Proof Photo](/event_2.png)

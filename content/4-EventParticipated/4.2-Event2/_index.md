@@ -1,86 +1,66 @@
 ---
 title: "Event 2"
-date: 2026-07-11
-weight: 2
+date: 2026-07-04
+weight: 1
 chapter: false
-pre: " <b> 4.2. </b> "
+pre: " <b> 4.1. </b> "
 ---
-# Summary Report: "FCAJ x Agentic AI Build Week"
+# EVENT REPORT: AWS Study Tour 2026 - Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud 
 
-### Event Purpose
+---
 
-- Share memorable experiences and insights from the Hackathon competition
-- Introduce Domain-Driven Design (DDD) methodology and Event-Driven Architecture
-- Guide selecting suitable compute services
+## 1. PURPOSE OF THE EVENT
 
+* **Academic Study Tour:** Connect Swinburne Vietnam students (from Ho Chi Minh City & Can Tho campuses) with a visit to the AWS office to experience the real-world Cloud industry environment.
+* **Industry Trends & Enterprise Architecture:** Listen to insights from AWS, Cloud Kinetics, and Renova Cloud experts on job market trends, tech innovations, and real-world Enterprise Cloud operations.
+* **Spreading the Pay-it-Forward Spirit:** Foster connections across generations of students and young engineers through the **AWS First Cloud AI Journey (FCAJ)** community.
 
-### Key Highlights
+---
 
-#### Negative Impacts of Legacy Application Architecture
+## 2. KEY HIGHLIGHTS
 
-- Slow product release cycles → Revenue loss and missed opportunities
+### A. Job Market Overview & Realities of Cloud Recruitment
+* **Enterprise Cloud Adoption:**
+  * Cloud computing has penetrated core sectors like Banking & Finance (migrating Core Banking to Cloud), Insurance, and Retail.
+* **The Hidden Job Market:**
+  * 90%–100% of actual Cloud roles are not publicly posted on standard job sites; instead, they are filled through **internal referrals** and **community networking**.
+* **Rising Hiring Standards:**
+  * Entry-level roles (Intern/Junior) now demand deep practical knowledge (e.g., K8s/Kubernetes, Cloud Architecture) rather than basic theoretical concepts.
 
+### B. Enterprise Cloud Architectures
+* **Large-Scale Infrastructure Migration:**
+  * Partners like Cloud Kinetics and Renova Cloud shared strategies for designing enterprise-grade Cloud infrastructures ensuring High Availability (HA) and stringent security.
+* **Balancing Cost & Performance:**
+  * Understand the *Range Median* concept regarding salaries and costs, realizing that the value delivered to an organization must significantly exceed the investment cost.
 
-#### Transitioning to Modern Microservice Architecture
+---
 
-Transitioning into a modular system where each functionality is an **independent service** communicating via **events**, resting on 3 core pillars:
+## 3. KEY TAKEAWAYS & LESSONS LEARNED
 
-- **Queue Management**: Asynchronous task processing
-- **Caching Strategy:** Performance optimization
-- **Message Handling:** Flexible communication between services
+### A. Career Growth Mindset
+* **Increase Visibility:** Step away from "silent grinding"—actively engage in events and communities so senior peers and leaders recognize your potential.
+* **Don't Walk Alone (Networking & Teaming):** Form cross-functional teams that pair technical skill sets with Business/Marketing backgrounds to broaden product perspectives.
+* **Consistency Matters:** Summarize key takeaways after every learning session and stay committed to long-term skill development.
 
-#### Domain-Driven Design (DDD)
+### B. Technical & Practical Skills
+* **Refine Your Questions:** Instead of asking broad or vague questions, state clear assumptions to help speakers give precise, valuable answers.
+* **Look Beyond the Curriculum:** While academic courses (like COS2019 - Cloud Computing Architecture) provide solid AWS Academy foundations, students should apply their knowledge through Hackathons and real-world projects.
 
-- **4-step method**: Identify domain events → arrange timeline → identify actors → define bounded contexts
-- **Bookstore case study**: Practical illustration of applying DDD
-- **Context mapping**: 7 integration patterns for bounded contexts
+---
 
-#### Event-Driven Architecture
+## 4. SPEAKERS & GUESTS
 
-- **3 integration patterns**: Publish/Subscribe, Point-to-point, Streaming
-- **Benefits**: Loose coupling, scalability, resilience
-- **Sync vs Async comparison**: Clear understanding of trade-offs
+* **Mr. Nguyen Gia Hung:** Head of Solutions Architect, AWS Vietnam (Founder of *AWS First Cloud AI Journey*).
+* **Mr. Nguyen Tran Minh Duy:** Industry Liaison Officer, Swinburne Vietnam (Coordinator for the Study Tour).
+* **Experts & Guest Speakers:** Representatives from Cloud Kinetics, Renova Cloud, and the First Cloud AI Journey Admin Team (Mr. Vinh, Ms. Nhu, Mr. Khang, Mr. Thien).
 
+---
 
-### Key Learnings
+## 5. EVENT LINK
 
-#### Design Thinking
-
-- **Business-first approach**: Always start from the business domain, not technology
-- **Ubiquitous language**: Importance of a common vocabulary between business and tech teams
-- **Bounded contexts**: How to identify and manage complexity in large systems
-
-#### Technical Architecture
-
-- **Event storming technique**: Practical method for modeling business processes
-- Utilizing **Event-driven communication** instead of synchronous calls
-- **Integration patterns**: Understanding when to use sync, async, pub/sub, streaming
-- **Compute spectrum**: Selection criteria ranging from VM → containers → serverless
-
-
-### Practical Application
-
-- **Apply DDD** to current projects: Conduct Event Storming sessions with the business team
-- **Refactor microservices**: Use bounded contexts to identify service boundaries
-- **Implement event-driven patterns**: Replace selected sync calls with async messaging
+* **Full Event Recording:** [AWS Study Group - Enterprise Cloud Architectures](https://www.youtube.com/watch?v=FKtMkUqyny4)
 
 
-### Event Experience & Key Video Takeaways
-
-Participating in the **“FCAJ x Agentic AI Build Week”** workshop (co-hosted with JI Fund & AWS) provided valuable technical insights from both keynote sessions and hackathon project presentations:
-
-#### Insights from High-Level Experts
-- Keynotes from **Mr. Nguyen Gia Hung** (Head of Solutions Architect, AWS Vietnam) and **Mr. Joseph Marazota** (Head of Technology, AWS ASEAN) provided strategic guidance on modern application design.
-- **Mental Model Shift in the Agentic AI Era**: Traditional software releases occur on multi-week cycles, whereas Agentic AI systems enable autonomous, minute-by-minute deployments. Engineers must challenge legacy constraints to adopt new paradigms.
-- **Friction Reduction**: Modern AI applications eliminate UI/UX bloat (complex onboarding, unnecessary menus) by deploying AI Agents that execute multi-step workflows directly for end-users.
-
-#### Short-Term Hackathon Lessons: PoC to Production
-Building a Proof of Concept (PoC) within a tight hackathon timeframe validates core ideas quickly, but moving to production requires solving three critical engineering challenges:
-1. **Guardrails**: Establishing rigid safety boundaries to verify Agent decisions before execution.
-2. **Operational Cost**: Managing LLM API usage in continuous execution loops.
-3. **Human-in-the-Loop**: Implementing feedback loops where domain experts (e.g., Data Analysts) iteratively refine Agent outputs.
-
-
-### Event Photos & Links
+## Event Photos
 
 ![Event Proof Photo](/event_2.png)

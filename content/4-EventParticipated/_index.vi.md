@@ -17,9 +17,15 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự (Khán giả)
 
-
-
 ### [Event 2](4.2-Event2/_index.vi.md)
+&emsp;**Tên sự kiện:** AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
+
+&emsp;**Thời gian:** 09:00 ngày 4/7/2026
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
+
+&emsp;**Vai trò trong sự kiện:** Người tham dự
+
+### [Event 3](4.3-Event3/_index.vi.md)
 &emsp;**Tên sự kiện:** FCAJ x Agentic AI Build Week
 
 &emsp;**Thời gian:** 09:00 ngày 25/7/2026
@@ -27,4 +33,6 @@ Trong quá trình thực tập, em đã tham gia 2 events, với mỗi event là
 &emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Sài Gòn, thành phố Hồ Chí Minh
 
 &emsp;**Vai trò trong sự kiện:** Người tham dự 
+
+
 

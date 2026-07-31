@@ -17,9 +17,16 @@ During my internship, I participated in two events. Each one was a memorable exp
 
 &emsp;**Role in Event:** Attendee
 
-
-
 ### [Event 2](4.2-Event2/_index.md)
+&emsp;**Event Name:** AWS: Enterprise Cloud Architectures and Industry Application featuring Cloud Kinetics & Renova Cloud
+
+&emsp;**Time:** 09:00 AM, July 04, 2026
+
+&emsp;**Location:** 26th Floor, Bitexco Financial Tower, No. 02 Hai Trieu Street, Saigon Ward, Ho Chi Minh City
+
+&emsp;**Role in Event:** Attendee
+
+### [Event 3](4.3-Event3/_index.md)
 &emsp;**Event Name:** FCAJ x Agentic AI Build Week
 
 &emsp;**Time:** 09:00, July 25, 2026
