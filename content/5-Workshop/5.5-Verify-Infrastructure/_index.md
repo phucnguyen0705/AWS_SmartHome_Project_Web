@@ -41,8 +41,8 @@ After stack `CREATE_COMPLETE`, confirm each service before deploying the applica
    - **Capacity mode:** On-demand
 
 
-![DynamoDB SmartHome table](/static/images/workshop/5.5-01-dynamodb-table.png)
-![DynamoDB pk/sk schema](/static/images/workshop/5.5-02-dynamodb-schema.png)
+![DynamoDB SmartHome table](/images/workshop/5.5-01-dynamodb-table.png)
+![DynamoDB pk/sk schema](/images/workshop/5.5-02-dynamodb-schema.png)
 
 
 
@@ -68,9 +68,9 @@ After stack `CREATE_COMPLETE`, confirm each service before deploying the applica
 
 
 
-![Cognito User Pool smarthome](/static/images/workshop/5.5-03-cognito-user-pool.png)
-![Admin user in Cognito](/static/images/workshop/5.5-04-cognito-admin-user.png)
-![Cognito groups admin and user](/static/images/workshop/5.5-05-cognito-groups.png)
+![Cognito User Pool smarthome](/images/workshop/5.5-03-cognito-user-pool.png)
+![Admin user in Cognito](/images/workshop/5.5-04-cognito-admin-user.png)
+![Cognito groups admin and user](/images/workshop/5.5-05-cognito-groups.png)
 
 
 
@@ -95,14 +95,14 @@ After stack `CREATE_COMPLETE`, confirm each service before deploying the applica
    - **Key pair:** `smarthome-key`
 
 
-![EC2 instance smarthome-backend Running](/static/images/workshop/5.5-06-ec2-instance.png)
+![EC2 instance smarthome-backend Running](/images/workshop/5.5-06-ec2-instance.png)
 
 
 3. **Security** tab → **Security groups** → inbound rules: **22**, **80**, **443**.
 
 
 
-![Security Group inbound 22 80 443](/static/images/workshop/5.5-07-ec2-security-group.png)
+![Security Group inbound 22 80 443](/images/workshop/5.5-07-ec2-security-group.png)
 
 
 
@@ -129,7 +129,7 @@ After stack `CREATE_COMPLETE`, confirm each service before deploying the applica
    - `/smarthome/cognito`
 
 
-![CloudWatch log groups smarthome](/static/images/workshop/5.5-09-cloudwatch-log-groups.png)
+![CloudWatch log groups smarthome](/images/workshop/5.5-09-cloudwatch-log-groups.png)
 
 
 
@@ -137,7 +137,7 @@ After stack `CREATE_COMPLETE`, confirm each service before deploying the applica
 
 
 
-![CloudWatch dashboard smarthome](/static/images/workshop/5.5-10-cloudwatch-dashboard.png)
+![CloudWatch dashboard smarthome](/images/workshop/5.5-10-cloudwatch-dashboard.png)
 
 
 
@@ -145,7 +145,7 @@ After stack `CREATE_COMPLETE`, confirm each service before deploying the applica
 
 
 
-![CloudWatch alarm login failed](/static/images/workshop/5.5-11-cloudwatch-alarm.png)
+![CloudWatch alarm login failed](/images/workshop/5.5-11-cloudwatch-alarm.png)
 
 
 
@@ -160,6 +160,7 @@ After stack `CREATE_COMPLETE`, confirm each service before deploying the applica
 1. **IAM** → **Roles** → **`smarthome-ec2-role`**.
 
 2. Confirm inline policy for DynamoDB, Cognito, IoT, CloudWatch Logs.
+
 
 
 

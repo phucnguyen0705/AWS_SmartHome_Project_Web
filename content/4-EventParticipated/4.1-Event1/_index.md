@@ -48,4 +48,4 @@
 
 ### Event Photos & Links
 
-![Ảnh tham gia event](/static/event_1.jpg)
+![Ảnh tham gia event](/event_1.jpg)

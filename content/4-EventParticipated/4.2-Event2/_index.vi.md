@@ -83,4 +83,4 @@ Tạo bản PoC trong thời gian ngắn của cuộc thi Hackathon giúp kiểm
 
 ### Hình Ảnh & Đường Dẫn Sự Kiện
 
-![Ảnh chứng minh đi event](/static/event_2.png)
+![Ảnh chứng minh đi event](/event_2.png)

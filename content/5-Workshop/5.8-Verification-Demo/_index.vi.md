@@ -52,13 +52,13 @@ Truy cập:
 ```
 http://EC2_PUBLIC_IP
 ```
-![Trang login SmartHome dashboard](/static/images/workshop/5.8-03-login-page.png)
+![Trang login SmartHome dashboard](/images/workshop/5.8-03-login-page.png)
 
 Đăng nhập:
 
 - **Admin:** `admin` / `Admin@Demo2024`
 - **User:** `user1` / `User1@Demo2024`
-![Dashboard sau đăng nhập admin](/static/images/workshop/5.8-04-dashboard-overview.png)
+![Dashboard sau đăng nhập admin](/images/workshop/5.8-04-dashboard-overview.png)
 
 ---
 
@@ -68,7 +68,7 @@ Virtual ESP32 (PM2) gửi telemetry qua MQTT → backend cập nhật DynamoDB �
 
 1. Mở trang **Overview** / **Rooms** — xem nhiệt độ, độ ẩm, ánh sáng.
 2. Tab **Log** — sự kiện cập nhật.
-![Sensor data trên dashboard](/static/images/workshop/5.8-05-sensor-data.png)
+![Sensor data trên dashboard](/images/workshop/5.8-05-sensor-data.png)
 
 **Console CloudWatch:** Log group `/smarthome/app` — log backend nhận MQTT.
 
@@ -84,7 +84,7 @@ Trên UI, thử bật/tắt:
 | Đèn | Phòng Khách | IoT |
 | Quạt | Phòng Khách | IoT |
 | Cửa | Phòng Ngủ 1 | IoT |
-![Điều khiển đèn quạt trên UI](/static/images/workshop/5.8-07-device-toggle.png)
+![Điều khiển đèn quạt trên UI](/images/workshop/5.8-07-device-toggle.png)
 
 **DynamoDB Console:** **Explore table items** — thấy record settings/device cập nhật.
 
@@ -97,8 +97,8 @@ Trên UI, thử bật/tắt:
 2. User thường **không** thấy trang **Users** (quản lý user).
 3. Login lại **`admin`** → có menu **Users**.
 
-![Admin có Users page](/static/images/workshop/5.8-9-not-page.png)
-![Users không có Users Page](/static/images/workshop/5.8-10-admin-users-page.png)
+![Admin có Users page](/images/workshop/5.8-9-not-page.png)
+![Users không có Users Page](/images/workshop/5.8-10-admin-users-page.png)
 
 ---
 
@@ -107,7 +107,7 @@ Trên UI, thử bật/tắt:
 Mở link từ CloudFormation Output **`CloudWatchDashboard`** hoặc:
 
 **CloudWatch** → **Dashboards** → **`smarthome-dashboard`**
-![Dashboard CloudWatch login fail + logs](/static/images/workshop/5.8-11-cloudwatch-dashboard-live.png)
+![Dashboard CloudWatch login fail + logs](/images/workshop/5.8-11-cloudwatch-dashboard-live.png)
 
 ---
 
@@ -121,3 +121,4 @@ Mở link từ CloudFormation Output **`CloudWatchDashboard`** hoặc:
 □ pm2 logs virtual-esp32 → connected
 □ CloudWatch có log audit/app
 ```
+

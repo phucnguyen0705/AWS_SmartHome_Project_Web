@@ -29,7 +29,7 @@ AWS hiện đã cho phép Lambda mount thẳng S3 Bucket như một ổ đĩa lo
 
 ### Mô hình kiến trúc & Luồng hoạt động
 
-![Sơ đồ kiến trúc Amazon S3 Files](/static/blog_3_architect.jpg)
+![Sơ đồ kiến trúc Amazon S3 Files](/blog_3_architect.jpg)
 *Hình 1: Sơ đồ kiến trúc kết hợp giữa AWS Lambda và S3 thông qua S3 VPC Endpoint*
 
 Dựa trên sơ đồ kiến trúc trên, luồng xử lý của hệ thống bao gồm 4 bước chính:
@@ -98,4 +98,4 @@ Cảm ơn mọi người đã dành thời gian đọc bài tổng hợp của m
 
 ### Hình ảnh bài viết
 
-![Bài viết trong nhóm](/static/blog_3_final.jpg)
+![Bài viết trong nhóm](/blog_3_final.jpg)

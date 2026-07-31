@@ -570,7 +570,7 @@ def preprocess_markdown(content, meta=None):
         if keep_columns:
             content = filter_markdown_tables(content, keep_columns)
 
-    content = re.sub(r"!\[([^\]]*)\]\(/static/images/", r"![\1](", content)
+    content = re.sub(r"!\[([^\]]*)\]\(/images/", r"![\1](", content)
     content = re.sub(r"!\[([^\]]*)\]\(/images/",      r"![\1](", content)
 
     content = re.sub(

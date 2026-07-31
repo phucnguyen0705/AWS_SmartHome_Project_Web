@@ -27,3 +27,4 @@ During my internship, I participated in two events. Each one was a memorable exp
 &emsp;**Location:** 26th Floor, Bitexco Financial Tower, No. 02 Hai Trieu Street, Sai Gon Ward, Ho Chi Minh City
 
 &emsp;**Role in Event:** Attendee
+

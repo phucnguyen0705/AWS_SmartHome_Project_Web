@@ -34,7 +34,7 @@ Do this **once** before production deployment. All steps on **AWS Management Con
 
 2. Top-right → select **Asia Pacific (Sydney) `ap-southeast-2`**.
 
-![Select region ap-southeast-2](/static/images/workshop/5.2-01-region.png)
+![Select region ap-southeast-2](/images/workshop/5.2-01-region.png)
 
 
 
@@ -64,7 +64,7 @@ IAM User (or role) needs minimum permissions:
 
 
 
-![Verify IAM User permissions](/static/images/workshop/5.2-02-iam-permissions.png)
+![Verify IAM User permissions](/images/workshop/5.2-02-iam-permissions.png)
 
 
 
@@ -100,7 +100,7 @@ CloudFormation template `smarthome-stack.yaml` requires **default VPC** and **pu
 
 
 
-![Default VPC in Console](/static/images/workshop/5.2-04-default-vpc.png)
+![Default VPC in Console](/images/workshop/5.2-04-default-vpc.png)
 
 
 
@@ -108,7 +108,7 @@ CloudFormation template `smarthome-stack.yaml` requires **default VPC** and **pu
 
 
 
-![Public subnet default VPC](/static/images/workshop/5.2-05-public-subnet.png)
+![Public subnet default VPC](/images/workshop/5.2-05-public-subnet.png)
 
 
 ---
@@ -136,14 +136,14 @@ Key pair is used for SSH into EC2 after the stack creates the instance.
 3. **Create** → download `.pem` file.
 
 
-![Create EC2 Key Pair smarthome-key](/static/images/workshop/5.2-06-create-keypair.png)
+![Create EC2 Key Pair smarthome-key](/images/workshop/5.2-06-create-keypair.png)
 
 
 
 4. Save to `SmartHome_IoT-main/infrastructure/keys/smarthome-key.pem` — **do not commit to Git**.
 
 
-![Key pair save folder location](/static/images/workshop/5.2-07-keypair-folder.png)
+![Key pair save folder location](/images/workshop/5.2-07-keypair-folder.png)
 
 
 
@@ -178,10 +178,11 @@ Limit lab costs:
 2. Select **Cost budget** → e.g. **5 USD/month** → email alerts at 80% / 100%.
 
 
-![Create AWS Budget for lab](/static/images/workshop/5.2-08-budget.png)
+![Create AWS Budget for lab](/images/workshop/5.2-08-budget.png)
 
 
 
 ---
+
 
 

@@ -186,3 +186,4 @@ Stack does not delete IoT Things/Certs — do manually if needed:
 
 - Nginx: `infrastructure/nginx/smarthome.conf`
 
+

@@ -15,7 +15,7 @@ pre: " <b> 2. </b> "
 
 During the **FCAJ** internship, the team implements **SmartHome_IoT** — React dashboard, Node.js backend on EC2 (Nginx), DynamoDB, Cognito, IoT Core, and CloudFormation — for demo, acceptance, and technical reporting.
 
-![SmartHome_IoT architecture](/static/images/Diagram.png)
+![SmartHome_IoT architecture](/images/Diagram.png)
 
 ### 2. Objectives
 
@@ -132,3 +132,4 @@ delivers **centralized, secure** control.
 #### Practical value
 
 A **self-owned**, **low monthly cost** smart home solution with enterprise-grade security at residential scale — plus a full **end-to-end AWS learning platform** for the FCAJ internship.
+

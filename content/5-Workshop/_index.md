@@ -116,3 +116,4 @@ This workshop documents the **SmartHome_IoT deployment workflow** on AWS, based 
 ```
 
 
+

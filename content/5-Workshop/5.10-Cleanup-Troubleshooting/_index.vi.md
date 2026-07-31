@@ -92,3 +92,4 @@ Stack không xóa IoT Things/Certs — làm thủ công nếu cần:
 - CloudFormation: `infrastructure/cloudformation/smarthome-stack.yaml`
 - IoT policy: `infrastructure/iot/iot-policy.json`
 - Nginx: `infrastructure/nginx/smarthome.conf`
+

@@ -176,7 +176,7 @@ Script auto-fetches VpcId/SubnetId and sets Cognito admin password.
 
 
 
-![Run deploy-stack.ps1](/static/images/workshop/5.4-07-deploy-stack-script.png)
+![Run deploy-stack.ps1](/images/workshop/5.4-07-deploy-stack-script.png)
 
 
 
@@ -189,6 +189,7 @@ Script auto-fetches VpcId/SubnetId and sets Cognito admin password.
 
 
 **CloudFormation** → select `smarthome-stack` → **Delete** → wait for `DELETE_COMPLETE`.
+
 
 
 

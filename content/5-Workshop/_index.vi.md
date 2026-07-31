@@ -63,3 +63,4 @@ Workshop này ghi lại **quy trình deploy dự án SmartHome_IoT** lên AWS, d
 □ pm2 logs virtual-esp32 → MQTT connected
 ```
 
+

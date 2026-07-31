@@ -56,4 +56,4 @@ pre: " <b> 4.1. </b> "
 
 ### Một Số Hình Ảnh Khi Tham Gia Sự Kiện
 
-![Ảnh tham gia event](/static/event_1.jpg)
+![Ảnh tham gia event](/event_1.jpg)

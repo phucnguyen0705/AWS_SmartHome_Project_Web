@@ -65,4 +65,4 @@ Thank you for reading the post!
 
 ### Article Image:
 
-![AWS Amplify Blog Post](/static/blog_2_final.jpg)
+![AWS Amplify Blog Post](/blog_2_final.jpg)

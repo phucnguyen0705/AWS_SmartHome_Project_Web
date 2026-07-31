@@ -87,10 +87,11 @@ Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 
 Script tự lấy VpcId/SubnetId và set mật khẩu admin Cognito.
 
-![Chạy deploy-stack.ps1](/static/images/workshop/5.4-07-deploy-stack-script.png)
+![Chạy deploy-stack.ps1](/images/workshop/5.4-07-deploy-stack-script.png)
 ---
 
 ## Xóa stack lỗi trước khi deploy lại
 
 **CloudFormation** → chọn `smarthome-stack` → **Delete** → đợi `DELETE_COMPLETE`.
+
 

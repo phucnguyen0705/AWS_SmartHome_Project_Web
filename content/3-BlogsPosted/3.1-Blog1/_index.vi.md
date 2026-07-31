@@ -53,4 +53,4 @@ Các tính năng mới của Amazon EMR on EC2 thực sự đem lại trải ngh
 ---
 ### Hình ảnh bài viết
 
-![Bài viết trong nhóm](/static/blog_1_final.jpg)
+![Bài viết trong nhóm](/blog_1_final.jpg)

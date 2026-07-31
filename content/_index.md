@@ -27,7 +27,7 @@ chapter: false
 
 &emsp; **Internship Duration:** From 08/06/2026 to 14/08/2026
 
-![Your profile picture](/static/images/avatar.png)
+![Your profile picture](/images/avatar.png)
 
 ### Report Content
 
@@ -39,3 +39,4 @@ chapter: false
 6.  [Self-evaluation](6-Self-evaluation/_index.md)
 7.  [Sharing and Feedback](7-Feedback/_index.md)
 8.  [References](8-References/_index.md)
+

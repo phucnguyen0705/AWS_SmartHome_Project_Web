@@ -17,7 +17,7 @@ Làm **một lần** trước khi triển khai production. Tất cả thao tác 
 1. Đăng nhập [AWS Management Console](https://console.aws.amazon.com/).
 2. Góc trên bên phải → chọn **Asia Pacific (Sydney) `ap-southeast-2`**.
 
-![Chọn region ap-southeast-2](/static/images/workshop/5.2-01-region.png)
+![Chọn region ap-southeast-2](/images/workshop/5.2-01-region.png)
 
 
 ---
@@ -32,7 +32,7 @@ IAM User (hoặc role) cần quyền tối thiểu:
 
 **Console:** **IAM** → **Users** → chọn user → tab **Permissions**.
 
-![Kiểm tra quyền IAM User](/static/images/workshop/5.2-02-iam-permissions.png)
+![Kiểm tra quyền IAM User](/images/workshop/5.2-02-iam-permissions.png)
 
 **Tuỳ chọn — xác minh bằng CLI:**
 
@@ -50,11 +50,11 @@ CloudFormation template `smarthome-stack.yaml` cần **default VPC** và **publi
 1. **VPC** → **Your VPCs** → tìm VPC có cột **Default VPC** = `Yes`.
 2. Nếu chưa có: **Actions** → **Create default VPC** (hoặc CLI `aws ec2 create-default-vpc --region ap-southeast-2`).
 
-![Default VPC trong Console](/static/images/workshop/5.2-04-default-vpc.png)
+![Default VPC trong Console](/images/workshop/5.2-04-default-vpc.png)
 
 3. **Subnets** → lọc VPC default → ghi **Subnet ID** public (route tới Internet Gateway).
 
-![Public subnet default VPC](/static/images/workshop/5.2-05-public-subnet.png)
+![Public subnet default VPC](/images/workshop/5.2-05-public-subnet.png)
 
 ---
 
@@ -69,10 +69,10 @@ Key pair dùng SSH vào EC2 sau khi stack tạo instance.
    - **Private key format:** `.pem` (Linux/Mac) hoặc `.ppk` (PuTTY)
 3. **Create** → tải file `.pem` về máy.
 
-![Tạo EC2 Key Pair smarthome-key](/static/images/workshop/5.2-06-create-keypair.png)
+![Tạo EC2 Key Pair smarthome-key](/images/workshop/5.2-06-create-keypair.png)
 
 4. Lưu tại `SmartHome_IoT-main/infrastructure/keys/smarthome-key.pem` — **không commit Git**.
-![Vị trí lưu file .pem](/static/images/workshop/5.2-07-keypair-folder.png)
+![Vị trí lưu file .pem](/images/workshop/5.2-07-keypair-folder.png)
 
 **Windows — sửa quyền file key (bắt buộc để SSH):**
 
@@ -89,6 +89,7 @@ Giới hạn chi phí lab:
 
 1. **Billing** → **Budgets** → **Create budget**.
 2. Chọn **Cost budget** → ví dụ **5 USD/tháng** → email cảnh báo 80% / 100%.
-![Tạo AWS Budget cho lab](/static/images/workshop/5.2-08-budget.png)
+![Tạo AWS Budget cho lab](/images/workshop/5.2-08-budget.png)
 
 ---
+

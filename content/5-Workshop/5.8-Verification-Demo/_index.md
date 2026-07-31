@@ -108,7 +108,7 @@ http://EC2_PUBLIC_IP
 
 
 
-![SmartHome dashboard login page](/static/images/workshop/5.8-03-login-page.png)
+![SmartHome dashboard login page](/images/workshop/5.8-03-login-page.png)
 
 
 
@@ -122,7 +122,7 @@ Login:
 
 
 
-![Dashboard after admin login](/static/images/workshop/5.8-04-dashboard-overview.png)
+![Dashboard after admin login](/images/workshop/5.8-04-dashboard-overview.png)
 
 
 
@@ -144,7 +144,7 @@ Virtual ESP32 (PM2) sends telemetry via MQTT → backend updates DynamoDB → UI
 
 
 
-![Sensor data on dashboard](/static/images/workshop/5.8-05-sensor-data.png)
+![Sensor data on dashboard](/images/workshop/5.8-05-sensor-data.png)
 
 
 
@@ -178,7 +178,7 @@ On UI, try toggling:
 
 
 
-![Control lights and fans on UI](/static/images/workshop/5.8-07-device-toggle.png)
+![Control lights and fans on UI](/images/workshop/5.8-07-device-toggle.png)
 
 
 
@@ -204,8 +204,8 @@ On UI, try toggling:
 
 
 
-![Admin has Users page](/static/images/workshop/5.8-9-not-page.png)
-![Regular users without Users page](/static/images/workshop/5.8-10-admin-users-page.png)
+![Admin has Users page](/images/workshop/5.8-9-not-page.png)
+![Regular users without Users page](/images/workshop/5.8-10-admin-users-page.png)
 ---
 
 
@@ -221,7 +221,7 @@ Open link from CloudFormation Output **`CloudWatchDashboard`** or:
 **CloudWatch** → **Dashboards** → **`smarthome-dashboard`**
 
 
-![CloudWatch dashboard login fail + logs](/static/images/workshop/5.8-11-cloudwatch-dashboard-live.png)
+![CloudWatch dashboard login fail + logs](/images/workshop/5.8-11-cloudwatch-dashboard-live.png)
 
 
 ---
@@ -247,4 +247,5 @@ Open link from CloudFormation Output **`CloudWatchDashboard`** or:
 □ CloudWatch has audit/app logs
 
 ```
+
 

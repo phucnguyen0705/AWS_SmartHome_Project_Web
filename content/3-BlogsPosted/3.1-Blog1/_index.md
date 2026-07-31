@@ -58,4 +58,4 @@ Thank you for reading!
 
 ### Article Image
 
-![Blog post image](/static/blog_1_final.jpg)
+![Blog post image](/blog_1_final.jpg)

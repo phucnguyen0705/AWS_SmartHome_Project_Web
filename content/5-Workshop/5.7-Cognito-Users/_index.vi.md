@@ -44,7 +44,7 @@ bash infrastructure/scripts/seed-cognito-demo.sh ap-southeast-2_XXXXX
 ### Bước 1 — Mở User Pool
 
 **Cognito** → **User pools** → **`smarthome-users`** → **Users**.
-![Edit ec2.env.template on VS Code](/static/images/workshop/5.6-01-ec2-env-template.png)
+![Edit ec2.env.template on VS Code](/images/workshop/5.6-01-ec2-env-template.png)
 
 ### Bước 2 — Đặt mật khẩu cho `admin`
 
@@ -53,7 +53,7 @@ bash infrastructure/scripts/seed-cognito-demo.sh ap-southeast-2_XXXXX
 
 3. Tab **Group memberships** → xác nhận user thuộc nhóm **`admin`**.
 
-![deploy-all.ps1 executed successfully](/static/images/workshop/5.6-02-deploy-all-script.png)
+![deploy-all.ps1 executed successfully](/images/workshop/5.6-02-deploy-all-script.png)
 
 ### Bước 3 — Tạo user `user1`
 
@@ -65,7 +65,7 @@ bash infrastructure/scripts/seed-cognito-demo.sh ap-southeast-2_XXXXX
 2. **Set password** → `User1@Demo2024` → permanent.
 3. **Add user to group** → **`user`**.
 
-![nginx smarthome.conf file on EC2](/static/images/workshop/5.6-07-nginx-config.png)
+![nginx smarthome.conf file on EC2](/images/workshop/5.6-07-nginx-config.png)
 
 
 ### Bước 4 — Tạo user `user2`
@@ -75,4 +75,5 @@ Lặp lại Bước 3 với `user2` / `User2@Demo2024` / group **`user`**.
 
 
 ---
+
 

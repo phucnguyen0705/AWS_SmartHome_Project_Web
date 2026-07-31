@@ -67,7 +67,7 @@ IOT_ENDPOINT=xxxxx-ats.iot.ap-southeast-2.amazonaws.com
 Keep other variables at defaults (`DYNAMODB_TABLE=SmartHome`, `MQTT_ENABLED=true`, ...).
 
 
-![Edit ec2.env.template on VS Code](/static/images/workshop/5.6-01-ec2-env-template.png)
+![Edit ec2.env.template on VS Code](/images/workshop/5.6-01-ec2-env-template.png)
 
 
 
@@ -115,7 +115,7 @@ Script performs:
 
 
 
-![deploy-all.ps1 executed successfully](/static/images/workshop/5.6-02-deploy-all-script.png)
+![deploy-all.ps1 executed successfully](/images/workshop/5.6-02-deploy-all-script.png)
 
 
 
@@ -242,7 +242,7 @@ Main content:
 - `location /api/` → `http://127.0.0.1:5000`
 
 
-![nginx smarthome.conf file on EC2](/static/images/workshop/5.6-07-nginx-config.png)
+![nginx smarthome.conf file on EC2](/images/workshop/5.6-07-nginx-config.png)
 
 
 
@@ -271,6 +271,7 @@ If not using script, ensure on EC2:
 
 
 ---
+
 
 
 

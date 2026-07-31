@@ -38,7 +38,7 @@ Reference repo: `SmartHome_IoT-main/` in workspace.
 
 
 
-![SmartHome_IoT architecture overview](/static/images/Diagram.png)
+![SmartHome_IoT architecture overview](/images/Diagram.png)
 
 
 
@@ -117,6 +117,7 @@ This workshop focuses on **Production EC2** — deploy via AWS Console + deploy 
 - **AWS CLI v2** (optional — deploy scripts use CLI)
 
 - Source code `SmartHome_IoT-main/` cloned locally
+
 
 
 

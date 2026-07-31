@@ -83,4 +83,4 @@ Building a Proof of Concept (PoC) within a tight hackathon timeframe validates c
 
 ### Event Photos & Links
 
-![Event Proof Photo](/static/event_2.png)
+![Event Proof Photo](/event_2.png)

@@ -65,4 +65,4 @@ Cảm ơn mọi người đã đọc bài chia sẻ!
 
 ### Hình ảnh bài viết:
 
-![Bài viết trong nhóm](/static/blog_2_final.jpg)
+![Bài viết trong nhóm](/blog_2_final.jpg)

@@ -98,11 +98,11 @@ Sample policy file in repo: `SmartHome_IoT-main/infrastructure/iot/iot-policy.js
 
 
 
-![Create IoT Policy SmartHomeDevicePolicy](/static/images/workshop/5.3-01-iot-policy-create.png)
+![Create IoT Policy SmartHomeDevicePolicy](/images/workshop/5.3-01-iot-policy-create.png)
 
 
 
-![Saved IoT Policy document](/static/images/workshop/5.3-02-iot-policy-saved.png)
+![Saved IoT Policy document](/images/workshop/5.3-02-iot-policy-saved.png)
 
 
 
@@ -126,7 +126,7 @@ Sample policy file in repo: `SmartHome_IoT-main/infrastructure/iot/iot-policy.js
 
 
 
-![Create Thing YoloHomeBackend](/static/images/workshop/5.3-03-thing-backend-create.png)
+![Create Thing YoloHomeBackend](/images/workshop/5.3-03-thing-backend-create.png)
 
 
 
@@ -146,7 +146,7 @@ Sample policy file in repo: `SmartHome_IoT-main/infrastructure/iot/iot-policy.js
 | `AmazonRootCA1.pem` (or root CA) | `root-CA.crt` |
 
 
-![backend/certs/ directory](/static/images/workshop/5.3-05-backend-certs-folder.png)
+![backend/certs/ directory](/images/workshop/5.3-05-backend-certs-folder.png)
 
 
 
@@ -174,10 +174,10 @@ Repeat Step 2 with:
 
 
 
-![Create Thing YoloUNODevice](/static/images/workshop/5.3-06-thing-device-create.png)
+![Create Thing YoloUNODevice](/images/workshop/5.3-06-thing-device-create.png)
 
 
-![backend/certs-device/ directory](/static/images/workshop/5.3-07-device-certs-folder.png)
+![backend/certs-device/ directory](/images/workshop/5.3-07-device-certs-folder.png)
 
 
 
@@ -201,11 +201,11 @@ Repeat Step 2 with:
 
 
 
-![List of Active certificates](/static/images/workshop/5.3-08-certificates-active.png)
+![List of Active certificates](/images/workshop/5.3-08-certificates-active.png)
 
 
 
-![Policy attached to certificate](/static/images/workshop/5.3-09-cert-policy-attached.png)
+![Policy attached to certificate](/images/workshop/5.3-09-cert-policy-attached.png)
 
 
 ---
@@ -221,7 +221,7 @@ Repeat Step 2 with:
 2. Copy **Device data endpoint** (format `xxxxx-ats.iot.ap-southeast-2.amazonaws.com`).
 
 
-![IoT Data endpoint in Settings](/static/images/workshop/5.3-10-iot-endpoint.png)
+![IoT Data endpoint in Settings](/images/workshop/5.3-10-iot-endpoint.png)
 
 
 
@@ -244,6 +244,7 @@ Record endpoint — use in `infrastructure/ec2.env.template` (`IOT_ENDPOINT=...`
 
 
 ---
+
 
 
 

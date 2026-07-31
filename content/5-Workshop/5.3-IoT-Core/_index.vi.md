@@ -48,9 +48,9 @@ File policy mẫu trong repo: `SmartHome_IoT-main/infrastructure/iot/iot-policy.
 
 4. **Create**.
 
-![Tạo IoT Policy SmartHomeDevicePolicy](/static/images/workshop/5.3-01-iot-policy-create.png)
+![Tạo IoT Policy SmartHomeDevicePolicy](/images/workshop/5.3-01-iot-policy-create.png)
 
-![IoT Policy document đã lưu](/static/images/workshop/5.3-02-iot-policy-saved.png)
+![IoT Policy document đã lưu](/images/workshop/5.3-02-iot-policy-saved.png)
 
 ---
 
@@ -62,7 +62,7 @@ File policy mẫu trong repo: `SmartHome_IoT-main/infrastructure/iot/iot-policy.
 4. **Attach policies** → chọn `SmartHomeDevicePolicy`.
 5. **Create thing** → **Download** 3 file certificate.
 
-![Tạo Thing YoloHomeBackend](/static/images/workshop/5.3-03-thing-backend-create.png)
+![Tạo Thing YoloHomeBackend](/images/workshop/5.3-03-thing-backend-create.png)
 
 
 6. Đổi tên 3 file và đặt vào `SmartHome_IoT-main/backend/certs/`:
@@ -73,7 +73,7 @@ File policy mẫu trong repo: `SmartHome_IoT-main/infrastructure/iot/iot-policy.
 | `*-certificate.pem.crt` | `device.pem.crt` |
 | `AmazonRootCA1.pem` (hoặc root CA) | `root-CA.crt` |
 
-![Thư mục backend/certs/](/static/images/workshop/5.3-05-backend-certs-folder.png)
+![Thư mục backend/certs/](/images/workshop/5.3-05-backend-certs-folder.png)
 
 **Client ID MQTT:** `YoloHomeBackend` (khớp tên Thing).
 
@@ -87,9 +87,9 @@ Lặp lại quy trình Bước 2 với:
 - **Client ID:** `YoloUNODevice`
 - Lưu cert vào `SmartHome_IoT-main/backend/certs-device/`
 
-![Tạo Thing YoloUNODevice](/static/images/workshop/5.3-06-thing-device-create.png)
+![Tạo Thing YoloUNODevice](/images/workshop/5.3-06-thing-device-create.png)
 
-![Thư mục backend/certs-device/](/static/images/workshop/5.3-07-device-certs-folder.png)
+![Thư mục backend/certs-device/](/images/workshop/5.3-07-device-certs-folder.png)
 
 > Trích cert cho firmware ESP32: `cd backend && npm run extract-certs`
 
@@ -101,9 +101,9 @@ Lặp lại quy trình Bước 2 với:
 2. Mỗi certificate → tab **Policies** → có `SmartHomeDevicePolicy`.
 3. **Things** → mỗi Thing → tab **Certificates** → cert đã gắn.
 
-![Danh sách certificate Active](/static/images/workshop/5.3-08-certificates-active.png)
+![Danh sách certificate Active](/images/workshop/5.3-08-certificates-active.png)
 
-![Policy attached to certificate](/static/images/workshop/5.3-09-cert-policy-attached.png)
+![Policy attached to certificate](/images/workshop/5.3-09-cert-policy-attached.png)
 
 ---
 
@@ -112,7 +112,7 @@ Lặp lại quy trình Bước 2 với:
 1. **IoT Core** → **Settings** (menu trái).
 2. Copy **Device data endpoint** (dạng `xxxxx-ats.iot.ap-southeast-2.amazonaws.com`).
 
-![IoT Data endpoint trên Settings](/static/images/workshop/5.3-10-iot-endpoint.png)
+![IoT Data endpoint trên Settings](/images/workshop/5.3-10-iot-endpoint.png)
 
 **Hoặc CLI:**
 
@@ -124,4 +124,5 @@ aws iot describe-endpoint --endpoint-type iot:Data-ATS --region ap-southeast-2 `
 Ghi endpoint — dùng trong `infrastructure/ec2.env.template` (`IOT_ENDPOINT=...`).
 
 ---
+
 

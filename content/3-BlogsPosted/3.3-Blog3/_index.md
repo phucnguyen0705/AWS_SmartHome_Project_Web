@@ -29,7 +29,7 @@ AWS now allows Lambda to mount S3 Buckets directly as local disk drives using th
 
 ### System Architecture & Workflow
 
-![Amazon S3 Files Architecture](/static/blog_3_architect.jpg)
+![Amazon S3 Files Architecture](/blog_3_architect.jpg)
 *Figure 1: Architectural diagram of Lambda integrating with Amazon S3 Files via VPC Endpoint*
 
 As shown in the architecture diagram above, the processing flow consists of 4 main steps:
@@ -83,4 +83,4 @@ Thank you everyone for taking the time to read my post!
 
 ### Article Image:
 
-![Blog 3 Final](/static/blog_3_final.jpg)
+![Blog 3 Final](/blog_3_final.jpg)

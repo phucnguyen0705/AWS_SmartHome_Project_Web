@@ -33,7 +33,7 @@ IOT_ENDPOINT=xxxxx-ats.iot.ap-southeast-2.amazonaws.com
 
 Các biến khác giữ mặc định (`DYNAMODB_TABLE=SmartHome`, `MQTT_ENABLED=true`, ...).
 
-![Sửa ec2.env.template trên VS Code](/static/images/workshop/5.6-01-ec2-env-template.png)
+![Sửa ec2.env.template trên VS Code](/images/workshop/5.6-01-ec2-env-template.png)
 
 ---
 
@@ -57,7 +57,7 @@ Script thực hiện:
 6. `npm run build` frontend với `VITE_API_URL=http://EC2_IP`
 7. Upload `dist/` → `/opt/smarthome/dist/`, reload Nginx
 
-![Chạy deploy-all.ps1 thành công](/static/images/workshop/5.6-02-deploy-all-script.png)
+![Chạy deploy-all.ps1 thành công](/images/workshop/5.6-02-deploy-all-script.png)
 
 **Chỉ deploy lại frontend:**
 
@@ -121,7 +121,7 @@ Nội dung chính:
 - `location /` → `/opt/smarthome/dist` (SPA)
 - `location /api/` → `http://127.0.0.1:5000`
 
-![File nginx smarthome.conf trên EC2](/static/images/workshop/5.6-07-nginx-config.png)
+![File nginx smarthome.conf trên EC2](/images/workshop/5.6-07-nginx-config.png)
 
 ---
 
@@ -136,5 +136,6 @@ Nếu không dùng script, đảm bảo trên EC2:
 
 
 ---
+
 
 

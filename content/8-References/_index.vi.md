@@ -62,3 +62,4 @@ Danh sách đường dẫn liên quan dự án **SmartHome_IoT** và kỳ thực
 5.  [Workshop](5-Workshop/_index.vi.md)
 6.  [Tự đánh giá](6-Self-evaluation/_index.vi.md)
 7.  [Chia sẻ, đóng góp ý kiến](7-Feedback/_index.vi.md)
+

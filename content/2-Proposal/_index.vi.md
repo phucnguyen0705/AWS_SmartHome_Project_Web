@@ -15,7 +15,7 @@ pre: " <b> 2. </b> "
 
 Trong kỳ thực tập **FCAJ**, nhóm triển khai dự án **SmartHome_IoT** — dashboard React, backend Node.js trên EC2 (Nginx), DynamoDB, Cognito, IoT Core và CloudFormation — phục vụ demo, nghiệm thu và báo cáo kỹ thuật.
 
-![Kiến trúc SmartHome_IoT](/static/images/Diagram.png)
+![Kiến trúc SmartHome_IoT](/images/Diagram.png)
 ### 2. Mục tiêu
 
 - Triển khai thành công mạng lưới IoT gồm **ít nhất 5 node cảm biến** (đo nhiệt độ, ánh sáng, chuyển động) kết nối tập trung về Dashboard quản lý.
@@ -131,3 +131,4 @@ Lộ trình **8 tuần**, nhóm **5 thành viên** (1 Trưởng nhóm, 2 Kỹ s�
 #### Giá trị thực tiễn
 
 Gia đình / nhóm lab có giải pháp SmartHome **tự chủ**, **ít chi phí duy trì hàng tháng**, bảo mật chuẩn doanh nghiệp nhưng phù hợp quy mô nhà ở — đồng thời là nền tảng học tập AWS end-to-end cho kỳ thực tập FCAJ.
+

@@ -19,8 +19,8 @@ Sau khi stack `CREATE_COMPLETE`, xác nhận từng dịch vụ trước khi dep
    - **Partition key:** `pk` (String)
    - **Sort key:** `sk` (String)
    - **Capacity mode:** On-demand
-![Bảng DynamoDB SmartHome](/static/images/workshop/5.5-01-dynamodb-table.png)
-![Schema pk/sk DynamoDB](/static/images/workshop/5.5-02-dynamodb-schema.png)
+![Bảng DynamoDB SmartHome](/images/workshop/5.5-01-dynamodb-table.png)
+![Schema pk/sk DynamoDB](/images/workshop/5.5-02-dynamodb-schema.png)
 
 > Dữ liệu sẽ xuất hiện sau khi backend chạy và virtual-esp32 gửi telemetry.
 
@@ -33,9 +33,9 @@ Sau khi stack `CREATE_COMPLETE`, xác nhận từng dịch vụ trước khi dep
 3. Tab **App integration** → **App clients** → copy **Client ID** (khớp Output `CognitoClientId`).
 4. Tab **Groups** → có nhóm **`admin`** và **`user`**.
 
-![Cognito User Pool smarthome](/static/images/workshop/5.5-03-cognito-user-pool.png)
-![User admin trong Cognito](/static/images/workshop/5.5-04-cognito-admin-user.png)
-![Cognito groups admin và user](/static/images/workshop/5.5-05-cognito-groups.png)
+![Cognito User Pool smarthome](/images/workshop/5.5-03-cognito-user-pool.png)
+![User admin trong Cognito](/images/workshop/5.5-04-cognito-admin-user.png)
+![Cognito groups admin và user](/images/workshop/5.5-05-cognito-groups.png)
 
 ---
 
@@ -48,10 +48,10 @@ Sau khi stack `CREATE_COMPLETE`, xác nhận từng dịch vụ trước khi dep
    - **IAM role:** `smarthome-ec2-role`
    - **Key pair:** `smarthome-key`
 
-![EC2 instance smarthome-backend Running](/static/images/workshop/5.5-06-ec2-instance.png)
+![EC2 instance smarthome-backend Running](/images/workshop/5.5-06-ec2-instance.png)
 
 3. Tab **Security** → **Security groups** → inbound rules: **22**, **80**, **443**.
-![Security Group inbound 22 80 443](/static/images/workshop/5.5-07-ec2-security-group.png)
+![Security Group inbound 22 80 443](/images/workshop/5.5-07-ec2-security-group.png)
 
 4. **Connect** → thử **EC2 Instance Connect** hoặc **Session Manager** (role có `AmazonSSMManagedInstanceCore`).
 
@@ -65,14 +65,14 @@ Sau khi stack `CREATE_COMPLETE`, xác nhận từng dịch vụ trước khi dep
    - `/smarthome/app`
    - `/smarthome/cognito`
 
-![CloudWatch log groups smarthome](/static/images/workshop/5.5-09-cloudwatch-log-groups.png)
+![CloudWatch log groups smarthome](/images/workshop/5.5-09-cloudwatch-log-groups.png)
 
 2. **Dashboards** → **`smarthome-dashboard`** (link cũng có trong CFN Output).
 
-![CloudWatch dashboard smarthome](/static/images/workshop/5.5-10-cloudwatch-dashboard.png)
+![CloudWatch dashboard smarthome](/images/workshop/5.5-10-cloudwatch-dashboard.png)
 
 3. **Alarms** → alarm **`smarthome-login-failed`**.
-![CloudWatch alarm login failed](/static/images/workshop/5.5-11-cloudwatch-alarm.png)
+![CloudWatch alarm login failed](/images/workshop/5.5-11-cloudwatch-alarm.png)
 
 ---
 
@@ -80,4 +80,5 @@ Sau khi stack `CREATE_COMPLETE`, xác nhận từng dịch vụ trước khi dep
 
 1. **IAM** → **Roles** → **`smarthome-ec2-role`**.
 2. Xác nhận policy inline cho DynamoDB, Cognito, IoT, CloudWatch Logs.
+
 
