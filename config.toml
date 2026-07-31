@@ -13,19 +13,6 @@ defaultContentLanguage = "en"
 
 theme = "hugo-theme-learn"
 
-# Ảnh đặt trong content/images/ → serve tại /images/...
-[module]
-[[module.mounts]]
-source = "content"
-target = "content"
-excludeFiles = ["images/**"]
-[[module.mounts]]
-source = "static"
-target = "static"
-[[module.mounts]]
-source = "content/images"
-target = "static/images"
-
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
