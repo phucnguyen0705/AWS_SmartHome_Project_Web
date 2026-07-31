@@ -1,3 +1,11 @@
+---
+title: "Event 1"
+date: 2026-07-04
+weight: 1
+chapter: false
+pre: " <b> 4.1. </b> "
+---
+
 # Summary Report: "Event 1: The 8-Team AWS Challenge"
 
 ### Event Purpose
