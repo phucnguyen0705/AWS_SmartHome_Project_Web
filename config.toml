@@ -1,4 +1,4 @@
-aseURL = "/"
+BaseURL = "/"
 relativeURLs = true
 canonifyURLs = false
 defaultContentLanguage = "en"

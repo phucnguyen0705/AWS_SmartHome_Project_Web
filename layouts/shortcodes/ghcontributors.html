@@ -20,11 +20,12 @@
 </style>
 <div class="ghContributors">
   {{ $url := .Get 0 }}
-  {{ with try (resources.GetRemote $url) }}
-    {{ with .Err }}
-      {{ warnf "ghcontributors: %s" . }}
-    {{ else with .Value }}
-      {{ $data := . | transform.Unmarshal }}
+  {{ $res := resources.GetRemote $url }}
+  {{ if $res }}
+    {{ if $res.Err }}
+      {{ warnf "ghcontributors: %s" $res.Err }}
+    {{ else }}
+      {{ $data := $res.Content | transform.Unmarshal }}
       {{ range $data }}
   <div>
     <img
@@ -34,7 +35,7 @@
       height="32"
       style="
         height: 32px;
-        height: 32px;
+        width: 32px;
         margin-bottom: 0.25em;
         vertical-align: middle;
       "
